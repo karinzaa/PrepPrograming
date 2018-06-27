@@ -3,7 +3,9 @@
 
 int main()
 {
-    int num = 5;
+    int num;
+    printf("Enter number: ");
+		scanf("%d", &num);
     switch(num){
         case 1:
             printf ("number is 1");
